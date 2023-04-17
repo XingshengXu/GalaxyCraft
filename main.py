@@ -19,9 +19,9 @@ pygame.display.set_caption('GalaxyCraft')
 SPACESHIP_VEL = 5
 BULLET_VEL = 15
 MAX_BULLETS = 3
-WINNER_FONT = pygame.font.SysFont('comicsans', 100)
-TITLE_FONT = pygame.font.SysFont('comicsans', 50)
-GUILD_FONT = pygame.font.SysFont('comicsans', 20)
+WINNER_FONT = pygame.font.SysFont('arial', 100)
+TITLE_FONT = pygame.font.SysFont('arial', 50)
+GUILD_FONT = pygame.font.SysFont('arial', 20)
 
 SPACESHIP_WIDTH, SPACESHIP_HEIGHT = 55, 40
 BORDER = pygame.Rect(WIDTH//2 - 5, 0, 10, HEIGHT)  # Define the middle border
